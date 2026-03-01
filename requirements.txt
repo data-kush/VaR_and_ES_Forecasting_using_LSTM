@@ -1,0 +1,21 @@
+# ============================================================
+#  LSTM-VaR/ES Risk Assessment Dashboard
+#  Python 3.9+ | CPU-only (no GPU required)
+# ============================================================
+
+# ── Deep Learning ──────────────────────────────────────────
+torch>=2.0.0             # PyTorch CPU build; install CPU-only wheel (see README)
+
+# ── Data Science Core ──────────────────────────────────────
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+
+# ── Financial / Time-Series ────────────────────────────────
+arch>=6.2.0              # GARCH(1,1)-skewed-t estimation and simulation
+
+# ── Web Dashboard ──────────────────────────────────────────
+flask>=3.0.0
+
+# ── Utilities ──────────────────────────────────────────────
+tqdm>=4.65.0             # Progress bars during training
